@@ -1,7 +1,14 @@
+*{
+box-sizing: border-box;
+}
+#container{
+    width:960px;
+    margin:0 auto;
+}
 
 body{
      align-content: center;
-     font-family: 'Arial';
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
      color: #777;
      background-color: #777;
      width: 960px;
@@ -12,37 +19,37 @@ header{
     width: 960px;
     background-color: #ebebeb;
     text-align: center;
-    height: 50px;
+    height: 70px;
     vertical-align: middle;
     margin: auto;
     padding-top: 25px;
     color: gray;
-
+    padding-bottom: 25px;
 }
 
 nav{
     width: 960px;
     background-color: #ebebeb;
     text-align: center;
-    height: 50px;
+    height: 70px;
     vertical-align: middle;
     margin: auto;
     padding-top: 25px;
-    color: gray
+    color: gray;
+    padding-bottom: 25px;
 
 }
 
 #wrapper{
-    width: 80%;
+    width: 100%;
     display: table;
     text-align: center;
     margin: 0px;
-    align-content: "safe center";
+    align-content: space-between;
 
 }
 
 section{
-    display: table-cell;
     width: 495px;
     background-color: #ebebeb;
     text-align: center;
@@ -55,6 +62,7 @@ section{
     padding-right: 25px;
     padding-bottom: 10px;
     float: left;
+    margin-right: 25px;
 }
 
 
@@ -68,22 +76,22 @@ article{
 #child-div{
     width: 80%;
     background-color: #f7f8f9;
-    text-align: center;
     height: 40px;
     vertical-align: middle;
     margin: auto;
-    padding-top: 25px;
+    padding-top: 20px;
     color: #777;
+    padding-bottom: 30px;
 }
 
 aside{
-    min-height: 280px;
-    min-width: 200px;
-    display: table-cell;
+    min-height: 315px;
+    min-width: 400px;
     background-color: #ebebeb;
     vertical-align: 0%;
     text-align: center;
-    margin: auto;
+    padding-top: 25px;
+    margin-left: 510px;
     text-align: center;
     color: #777;
     align-content: center;
@@ -91,15 +99,16 @@ aside{
 
 
 footer{
+    clear: both;
     width: 960px;
     background-color: #ebebeb;
     text-align: center;
-    height: 50px;
+    height: 70px;
     vertical-align: middle;
     margin: auto;
     padding-top: 25px;
     color: gray;
-    clear: both;
+    padding-bottom: 25px;
 }
 
 
